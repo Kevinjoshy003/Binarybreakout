@@ -1,0 +1,76 @@
+body {
+    background: url('aegis.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #00ff99;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Styled Login Box */
+.login-box {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #00ff99;
+    box-shadow: 0px 0px 15px #00ff99;
+    display: inline-block;
+}
+
+/* Input Fields */
+.input-box input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    background: black;
+    color: #00ff99;
+    border: 2px solid #00ff99;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Styled Main Content Box */
+.main-container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #00ff99;
+    box-shadow: 0px 0px 15px #00ff99;
+    display: flex;
+    align-items: center;
+}
+
+/* Image */
+.nemesis-image {
+    width: 40%;
+    height: 40;
+    margin-right: 20px;
+}
+
+/* Scrollable Description */
+.description-box {
+    width: 50%;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+/* Launch Button */
+button {
+    padding: 15px;
+    background: #ff0033;
+    color: white;
+    border: 2px solid #ff0033;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #ff0033;
+}
+
+/* Locate Mainframe */
+#mainframe-image {
+    display: none;
+}
+
+/* Red Text for Binary Breakout Active */
+.red-text {
+    color: #ff0033;
+    text-shadow: 0px 0px 10px #ff0033;
+}
